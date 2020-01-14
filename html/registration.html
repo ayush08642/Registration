@@ -36,46 +36,46 @@
     <!--FORM STARTS-->
 <div class="container p-4 ">
     <div class="row "> 
-    <form action="" class="main-form needs-validation border border-dark p-4 rounded" novalidate>
+    <form action="" class="main-form needs-validation border border-dark p-4 rounded color shadow " novalidate>
         <div class="row">
             <!--EMPLOLYMENT NUMBER-->
             <div class="form-group col-sm-10 col-lg-12">
-                <label for="empno">Employment Number</label>
-                <input type="number" name="empno" id="empno" class="form-control" required>
-                <small class="form-text text-muted">Please enter your Employment number.</small>
+                <label for="empno" class="lead font-weight-normal">Employment Number</label>
+                <input type="number" name="empno" id="empno" placeholder="*123456789" class="form-control" required>
+                <small class="form-text text-muted smute">Please enter your Employment number.</small>
             </div>
             <div class="col-sm-12 col-lg-6">
                 <div class="form-group">
                     <!--FIRST NAME-->
-                    <label for="firstname">Firstname</label>
-                    <input type="text" name="firstname" id="firstname" class="form-control">
+                    <label for="firstname" class="lead font-weight-normal">Firstname</label>
+                    <input type="text" name="firstname" id="firstname" placeholder="First Name" class="form-control">
                     <!--<div class="invalid-feedback">Looks good!</div>-->
-                    <small class="form-text text-muted">
+                    <small class="form-text text-muted smute">
                         This should be your first name.
                     </small>
                 </div>
             </div>
             <!--LAST NAME-->
-            <div class="col-sm-12 col-lg-6">
+            <div class="col-sm-12 col-lg-6 ">
                 <div class="form-group">
-                    <label for="lastname">Lastname</label>
-                    <input type="text" name="lastname" id="lastname" class="form-control">
-                    <small class="form-text text-muted">
+                    <label for="lastname" class="lead font-weight-normal">Lastname</label>
+                    <input type="text" name="lastname" id="lastname" placeholder="Last Name" class="form-control">
+                    <small class="form-text text-muted smute">
                         This should be your last name.
                     </small>
                 </div>
             </div>
             <!--MOBILE-NUMBER-->
             <div class="form-group col-sm-10 col-lg-12">
-                <label for="mobno">Mobile Number</label>
-                <input type="tel" name="mobeno" id="mobno" class="form-control" required>
-                <small class="form-text text-muted">Please enter your Contact number.</small>
+                <label for="mobno"> class="lead font-weight-normal"Mobile Number</label>
+                <input type="tel" name="mobeno" id="mobno" class="form-control" placeholder="+91 97845****12" required>
+                <small class="form-text text-muted smute">Please enter your Contact number.</small>
             </div>
         </div>
         <!--GENDER-->
-        <div class="form-group">
-            <label for="gender">Gender</label>
-            <select name="gender" id="gender" class="form-control">
+        <div class="form-group  ">
+            <label for="gender" class="lead font-weight-normal">Gender</label>
+            <select name="gender" id="gender" class="form-control  ">
                 <option value="male">Male</option>
                 <option value="female">Female</option>
                 <option value="NA">I don't want to disclose</option>
@@ -83,7 +83,7 @@
         </div>
         <!--DESIGNATION-->
             <div class="form-group">
-            <label for="designation">Designation</label>
+            <label for="designation" class="lead font-weight-normal">Designation</label>
             <select name="designation" id="designation" class="form-control">
                 <option value="N">Select from the given</option>
                 <option value="doctor">Doctor</option>
@@ -96,19 +96,19 @@
         <!-- END OF DESIGNATION-->
         <!--USERNAME-->
         <div class="form-group">
-            <label for="username">Username</label>
+            <label for="username" class="lead font-weight-normal">Username</label>
             <input type="text" name="username" id="username" class="form-control" required>
             <div class="invalid-feedback">Please enter a valid username.</div>
         </div>
         <!--PASSWORD-->
         <div class="form-group">
-            <label for="password">Password</label>
-            <input type="password" name="password" id="password" class="form-control">
+            <label for="password" class="lead font-weight-normal">Password</label>
+            <input type="password" name="password" id="password" placeholder="Password" class="form-control">
         </div>
         <!--CONFIRM-PASSWORD-->
         <div class="form-group">
-            <label for="password">Confirm-Password</label>
-            <input type="password" name="password" id="password" class="form-control">
+            <label for="password" class="lead font-weight-normal">Confirm-Password</label>
+            <input type="password" name="password" id="password" placeholder="Password Confirmation" class="form-control">
         </div>
         
         <br>
