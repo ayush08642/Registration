@@ -8,6 +8,6 @@
     }
 footer{/*REMOVE THIS PIECE OF CODE AFTER ADDING SOMETHING TO THE PAGE */
     position: relative;
-    min-top: 70vh;
+    top: 70vh;
 }
 /*-------*-*-*-*-*-*-*-*-*-------------*/
