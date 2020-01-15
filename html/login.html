@@ -37,8 +37,13 @@
                 </li>
             </ul>
         </div>
-
     </nav>
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Login</li>
+        </ol>
+      </nav>
 <!--~~~~~~~~~~~NAVIGATION BAR ENDS~~~~~~~~~~-->
 <!--LOGIN FORM-->
     
@@ -54,7 +59,7 @@
                     <input type="password" class="form-control" placeholder="Your Password" value="" />
                 </div>
                 <div class="form-group">
-                    <input type="submit" class="btnSubmit btn btn-primary" value="Login" />
+                    <input type="submit" class="btnSubmit btn btn-primary " value="Login" />
                 </div>
                 <div class="form-group">
                     <a href="#" class="btnForgetPwd btn" value="NA-Login">Forget Password?</a>
@@ -63,7 +68,7 @@
         </div>
         <div class="col-md-6 login-form-2">
             <div class="login-logo" id="content-mobile">
-                <img src="/img/favicon.ico" alt=""/>
+                <a href="#"> <img src="/img/favicon.ico" alt=""/></a>
             </div>
             <h3 class="display-3">Patient</h3>
                 <div class="form-group">

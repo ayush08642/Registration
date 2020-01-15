@@ -47,6 +47,7 @@
     border: none;
     border-radius: 1.5rem;
     padding:2%;
+    margin-left: 23%;
 }
 .btnForgetPwd{
     color: #fff;
@@ -90,4 +91,14 @@
             #search{display: none;}
         }
         
-    
+.btnSubmit:hover.btnForgetPwd:hover,input:hover,.btnForgetPwd:hover,img:hover{
+
+    -webkit-box-shadow: 0px 0px 18px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 18px 3px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 18px 3px rgba(0,0,0,0.75);
+}
+.btnSubmit:focus.btnForgetPwd:focus,input:focus,.btnForgetPwd:focus,img:focus{
+    -webkit-box-shadow: 0px 0px 18px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 18px 3px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 18px 3px rgba(0,0,0,0.75);
+}
