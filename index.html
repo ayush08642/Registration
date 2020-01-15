@@ -5,24 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Sepsis Registration</title>
+    <title>Sepsis Login</title>
+
+    <!--BOOTSTRAP CSS**********************************************-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/registration.css">
+
+<!--CUSTOM CSS**********************************************-->
+    <link rel="stylesheet" href="/css/login.css">
+
+<!--FAVICON**********************************************-->
     <link rel="icon" href="/img/favicon.ico" >
+
+    <!-- font awesome********************************************** -->
+  <link rel="stylesheet" href="/css/all.css">
+  <!--END OF HEAD**************************************************************************************-->
 </head>
 
 <body>
     <!--BODY-->
     <!--NAVIGATION BAR-->
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark py-3" id="navBar">
-        <a href="#" class="navbar-brand"><img src="/img/favicon.ico" alt=""/>&nbsp; SLAY-SEPSIS</a>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark py-3">
+        <a href="#" class="navbar-brand"> <img src="/img/favicon.ico" alt=""/>&nbsp; SLAY-SEPSIS</a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse " id="navbarMenu">
-            
-            <ul class="navbar-nav ml-auto">
+        <div class="collapse navbar-collapse nav-right" id="navbarMenu">
+            <ul class="navbar-nav ml-auto ">
                 <li class="nav-item" id="search">
                     <form class="form-inline mt-2 mt-md-0">
                         <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
@@ -30,19 +39,22 @@
                     </form>
                 </li> 
                 <li class="nav-item">
-                    <a href="" class="nav-link">&nbsp; Login</a>
+                    <a href="" class="nav-link"><i class="fas fa-sign-in-alt"></i>&nbsp; Login</a>
                 </li>
                 <li class="nav-item" id="sep"> <a href="" class="nav-link">|</a></li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">&nbsp; Registration</a>
+                    <a href="#" class="nav-link"><i class="far fa-id-badge"></i>&nbsp; Registration</a>
                 </li>
             </ul>
-            
         </div>
-
     </nav>
-    <!--NAVIGATION BAR ENDS-->
-    
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Login</li>
+        </ol>
+      </nav>
+<!--~~~~~~~~~~~NAVIGATION BAR ENDS~~~~~~~~~~-->
 
 
 
@@ -60,11 +72,19 @@
 
 
 
-<!--FOOTER-HERE-->
+
+
+
+
+
+
+
+
+<!--~~~~~~~~~~~~~~~FOOTER-HERE~~~~~~~~~~~~-->
 <footer class="footer text-center bg-dark text-light p-4">
     <p>@CopyRight 2020 SIH SourceDeCode</p>
 </footer>
-
+<!--****************DON'T TOUCH THIS***************************************-->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
