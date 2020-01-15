@@ -1,6 +1,15 @@
 @media (max-width: 768px){
 
- }
+}
+#bg{
+    background: url(/img/gen-bg.jpg) no-repeat ;
+    height: 100%;
+   
+}
+/*.trans{
+    /*opacity: 0%;
+}*/
+
 
 .login-container{
     margin-top: 5%;
