@@ -1,11 +1,24 @@
-@media (max-width: 768px){
-
+body{
+    background: url(/img/tech-health.jpg) no-repeat ;
+    min-height: calc(100vh- 138px);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
 }
+
 #bg{
     background: url(/img/gen-bg.jpg) no-repeat ;
-    height: 100%;
-   
+    min-height: calc(100vh- 138px);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
 }
+
+
 /*.trans{
     /*opacity: 0%;
 }*/
@@ -14,30 +27,27 @@
 .login-container{
     margin-top: 5%;
     margin-bottom: 5%;
+
 }
+
 .login-logo{
+    width: 75%;
     position: relative;
-    margin-left: -41.5%;
+    margin-left: 34%;
+    margin-top: 3vh;
 }
+
 .login-logo img{
     position: absolute;
-    width: 20%;
-    margin-top: 22%;
+    width: 40%;
+    margin-top: -66.5%;
     background: #282726;
     border-radius: 4.5rem;
     padding: 5%;
-}
+    }
 
-.login-form-1{
-    padding: 9%;
-    background:#8377d1;
-    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
-}
-.login-form-1 h3{
-    text-align: center;
-    margin-bottom:12%;
-    color:#fff;
-}
+
+
 .login-form-2{
     padding: 9%;
     background: #fa8334;
